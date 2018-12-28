@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Selenium Grid Suite" parallel="tests">
+
+	<test name="Chrome Browser Test">
+	<parameter name="portNo" value="4445"></parameter>
+	<parameter name="appUrl" value="https://www.google.com"></parameter>
+	<classes>
+ 		<class name="GridTests.SeleniumParallelTest"></class>
+	</classes>
+	</test>
+
+	<test name="Firefox Browser Test">
+	<parameter name="portNo" value="4446"></parameter>
+	<parameter name="appUrl" value="https://www.freecrm.com"></parameter>
+	<classes>
+ 		<class name="GridTests.SeleniumParallelTest"></class>
+	</classes>
+	</test>
+	
+</suite>

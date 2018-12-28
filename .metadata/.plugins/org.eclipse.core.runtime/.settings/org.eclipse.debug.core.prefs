@@ -1,0 +1,8 @@
+//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.jdt.junit.launchconfig=org.eclipse.jdt.junit.launchconfig,debug,;
+//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.jdt.launching.localJavaApplication=org.eclipse.jdt.launching.localJavaApplication,debug,;
+//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.jdt.launching.remoteJavaApplication=org.eclipse.jdt.launching.remoteJavaApplication,debug,;
+//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.pde.ui.EquinoxLauncher=org.eclipse.pde.ui.EquinoxLauncher,debug,;
+//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.pde.ui.JunitLaunchConfig=org.eclipse.pde.ui.JunitLaunchConfig,debug,;
+//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.pde.ui.RuntimeWorkbench=org.eclipse.pde.ui.RuntimeWorkbench,debug,;
+eclipse.preferences.version=1
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<watchExpressions>\r\n<expression enabled\="true" text\="getProperty"/>\r\n<expression enabled\="true" text\="prop.getProperty(&quot;browser&quot;)"/>\r\n<expression enabled\="true" text\="prop.getProperty(&quot;url&quot;)"/>\r\n<expression enabled\="true" text\="prop.getProperty(&quot;username&quot;)"/>\r\n<expression enabled\="true" text\=""/>\r\n<expression enabled\="true" text\="pricingPlan.getText()"/>\r\n</watchExpressions>\r\n

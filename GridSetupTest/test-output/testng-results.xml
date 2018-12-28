@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Selenium Grid Suite" duration-ms="15133" started-at="2018-12-18T10:45:53Z" finished-at="2018-12-18T10:46:08Z">
+    <groups>
+    </groups>
+    <test name="Chrome Browser Test" duration-ms="8168" started-at="2018-12-18T10:45:53Z" finished-at="2018-12-18T10:46:01Z">
+      <class name="GridTests.SeleniumParallelTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:GridTests.SeleniumParallelTest@3532ec19]" name="setUp" is-config="true" duration-ms="5800" started-at="2018-12-18T10:45:53Z" finished-at="2018-12-18T10:45:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:GridTests.SeleniumParallelTest@3532ec19]" name="test" duration-ms="19" started-at="2018-12-18T10:45:58Z" finished-at="2018-12-18T10:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GridTests.SeleniumParallelTest@3532ec19]" name="tearDown" is-config="true" duration-ms="2326" started-at="2018-12-18T10:45:59Z" finished-at="2018-12-18T10:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GridTests.SeleniumParallelTest -->
+    </test> <!-- Chrome Browser Test -->
+    <test name="Firefox Browser Test" duration-ms="15133" started-at="2018-12-18T10:45:53Z" finished-at="2018-12-18T10:46:08Z">
+      <class name="GridTests.SeleniumParallelTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:GridTests.SeleniumParallelTest@13deb50e]" name="setUp" is-config="true" duration-ms="14933" started-at="2018-12-18T10:45:53Z" finished-at="2018-12-18T10:46:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4446]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.freecrm.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:GridTests.SeleniumParallelTest@13deb50e]" name="test" duration-ms="25" started-at="2018-12-18T10:46:08Z" finished-at="2018-12-18T10:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GridTests.SeleniumParallelTest@13deb50e]" name="tearDown" is-config="true" duration-ms="153" started-at="2018-12-18T10:46:08Z" finished-at="2018-12-18T10:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GridTests.SeleniumParallelTest -->
+    </test> <!-- Firefox Browser Test -->
+  </suite> <!-- Test Selenium Grid Suite -->
+</testng-results>
